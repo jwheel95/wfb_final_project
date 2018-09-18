@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+}
+
+/************* NAVBAR ***************/
+
+.navbar {
+    width: 100%;
+    background-color:#000;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    margin: 15px 0px 0px 10px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 24px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color:#c3cad8;
+    transition: 1s;
+}
+
+.list-item a:hover {
+    color:#34b6ff;
+    font-size: 36px;
+    animation-name: links;
+    animation-duration: 1s;
+}
+
+/************** Banner ***************/
+
+.banner {
+    background-image: url(/images/yosemite-background.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    width: 100%;
+    height: 1100px;
+}
