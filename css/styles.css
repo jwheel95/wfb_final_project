@@ -179,6 +179,32 @@ body {
 .map {
     margin: 0 auto;
 }
+
+/************* Contact Page **********/
+
+.contact-section {
+    width:100%;
+    text-align: center;
+    height: 850px;
+    background-color: #000;
+}
+
+.form-heading {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #34b6ff;
+    padding-top: 80px;
+}
+
+.form-container {
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 3px solid #34b6ff;
+}
 /************* Footer ***************/
 
 .footer {
