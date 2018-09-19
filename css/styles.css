@@ -10,6 +10,7 @@ body {
     height: 80px;
     position: fixed;
     top: 0px;
+    z-index: 100;
 }
 
 .logo {
@@ -26,6 +27,7 @@ body {
     font-weight: 700;
     line-height: 25px;
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .list-item a {
@@ -44,9 +46,89 @@ body {
 .banner {
     background-image: url(/images/yosemite-background.jpg);
     background-size: cover;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 100%;
-    height: 1100px;
+    height: 800px;
+    position: relative;
+}
+
+.banner-stripe {
+    width: 100%;
+    background-color: #c3cad8;
+    opacity: .6;
+    height: 180px;
+    position: absolute;
+    top: 280px;
+    text-align: center;
+}
+
+.banner-container {
+    text-align: center;
+    top: 280px;
+}
+
+.banner-text {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 290px;
+    z-index: 50;
+}
+
+.banner-sub {
+    font-size: 50px;
+    top: 370px;
+}
+
+/************* Home Page Info **********/
+
+.home-container {
+    background-color: #000;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.home-info-container {
+    height: 500px;
+    width: 550px;
+    position: absolute;
+    left: 52%;
+    top:100px;
+}
+
+.home-info {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.profile {
+    border-radius: 50%;
+    position: absolute;
+    height: 350px;
+    left: 500px;
+    top: 30px;
+}
+
+/************* About Page ************/
+
+.abt-container {
+    background-color: #000;
+    height: 1000px;
+}
+
+.abt-col {
+    width: 32.8%;
+    border: 3px solid #34b6ff;
+    height: 900px;
+    margin-top: 80px;
+    display: inline-block;
 }
 
 /************* Footer ***************/
@@ -54,8 +136,8 @@ body {
 .footer {
     background-color: #000;
     color: #34b6ff;
-    width: 100%
-    height 40px;
+    width: 100%;
+    height: 80px;
     padding-top: 10px;
 }
 
