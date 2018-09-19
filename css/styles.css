@@ -67,7 +67,7 @@ body {
     top: 280px;
     text-align: center;
     animation-name: banner;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -177,7 +177,8 @@ body {
 }
 
 .map {
-    margin: 0 auto;
+    display: inline-block;
+    padding-left: 77px;
 }
 
 /************* Contact Page **********/
